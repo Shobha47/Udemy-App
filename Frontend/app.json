@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Smart Skills India",
+    "slug": "smart-skills-india",
+    "scheme": "smartskillsindia",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "icon": "./assets/icon.png",
+    "android": {
+      "package": "com.shasha47.smartskillsindia",
+      "compileSdkVersion": 35,
+      "targetSdkVersion": 35,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#4F46E5"
+      }
+    },
+    "plugins": [
+      "expo-asset",
+      "expo-secure-store",
+      "expo-font",
+      "expo-video"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "6813c964-2919-41d4-a832-e930ec045058"
+      }
+    }
+  }
+}
